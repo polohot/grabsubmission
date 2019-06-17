@@ -8,5 +8,21 @@ paste the file in this directory after clone <br>
 grabchallange/data/*
 # Main notebook<br>
 grab_challange/GRAB Image classification challange.ipynb
-# make prediction
-Last section of the notebook states on how to make prediction on the new images using the model above
+# Make prediction
+Last section of the notebook states on how to make prediction on the new images using the model above<br>
+1. copy pictures into hold_out_images folder
+2. import libraries
+
+# Import library dependencies
+import numpy as np
+import pandas as pd
+import scipy.io
+import my_function as mf
+from os import listdir
+from os.path import isfile, join
+from PIL import Image as PILImage
+# Import Fast.ai Library
+import fastai as fastai
+from fastai.vision import *
+from fastai.metrics import error_rate
+pd.options.mode.chained_assignment = None
