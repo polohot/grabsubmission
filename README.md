@@ -14,9 +14,8 @@ Last section of the notebook states on how to make prediction on the new images 
 <br>
 2. import libraries<br>
 <br>
-```import numpy as np```
-
-
+```
+import numpy as np
 import pandas as pd
 import scipy.io
 import my_function as mf
@@ -27,4 +26,5 @@ import fastai as fastai
 from fastai.vision import *
 from fastai.metrics import error_rate
 pd.options.mode.chained_assignment = None
-
+```
+fasdfasdf
