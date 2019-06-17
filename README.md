@@ -1,19 +1,43 @@
-# Grabsubmission (Test accuracy 92.2%)
+# Grab Submission (Test accuracy 92.2%)
 This model is trained on stanford car dataset<br>
 https://ai.stanford.edu/~jkrause/cars/car_dataset.html<br>
-# Environment Setup<br>
-please use the environment from
-<a href="https://github.com/polohot/grabsubmission/blob/master/environment.yml">environment.yml</a>
+# Main notebook<br>
+<a href="https://github.com/polohot/grabsubmission/blob/master/grab_challange/GRAB%20Image%20classification%20challange.ipynb">grab_challange/GRAB Image classification challange.ipynb</a><br>
+# Environment Setup (Tested on windows)
+**Please follow the step one by one**<br><br>
+a) Create new environment python = 3.6
+```
+conda create -n grab_image python=3.6
+```
+b) Activate environment
+```
+conda activate grab_image
+```
+c) Download and install pytorch<br>
+>go to pytorch website https://pytorch.org/<br>
+>choose stable and your cuda version<br>
+>copy the link and paste into anaconda terminal<br>
+
+d) Install FastAI Library
+```
+conda install -c pytorch -c fastai fastai
+```
+d) Install Jupyter
+```
+conda install -c anaconda jupyter 
+```
 # Pretrained Model Setup<br>
 please download the pretrained model in this link <br>
-https://drive.google.com/open?id=1jTnColYHZhnuckgop06OAzk8D-mROrG7 <br>
+https://drive.google.com/open?id=1bXHQwkWT5fLlCq0Uye8G-kF7RoKTlI4q <br>
 paste the file in this directory after clone <br> 
 ```
 grabchallange/data/
 ```
-# Main notebook<br>
-<a href="https://github.com/polohot/grabsubmission/blob/master/grab_challange/GRAB%20Image%20classification%20challange.ipynb">grab_challange/GRAB Image classification challange.ipynb</a><br>
-# Make prediction (go to section 3.3 of the notebook)
+
+# Make prediction of test set<br>
+(go to section 3.2 of the notebook)<br>
+# Make prediction of hold_out set <br>
+(go to section 3.3 of the notebook)<br>
 Last section of the notebook states on how to make prediction on the new images using the model above<br><br>
 1.Copy pictures into hold_out_images folder<br>
 <br>
