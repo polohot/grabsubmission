@@ -5,18 +5,18 @@ https://ai.stanford.edu/~jkrause/cars/car_dataset.html<br>
 <a href="https://github.com/polohot/grabsubmission/blob/master/grab_challange/GRAB%20Image%20classification%20challange.ipynb">grab_challange/GRAB Image classification challange.ipynb</a><br>
 # Environment Setup (Tested on windows)
 **Please follow the step one by one**<br><br>
-a) Create new environment python = 3.6
+**a) Create new environment python = 3.6**
 ```
 conda create -n grab_image python=3.6
 ```
-b) Activate environment
+**b) Activate environment**
 ```
 conda activate grab_image
 ```
-c) Download and install pytorch<br>
->go to pytorch website https://pytorch.org/<br>
->choose stable and your cuda version<br>
->copy the link and paste into anaconda terminal<br>
+**c) Download and install pytorch**<br>
+1. go to pytorch website https://pytorch.org/<br>
+2. choose stable and your cuda version<br>
+3. copy the link and paste into anaconda terminal<br>
 
 d) Install FastAI Library
 ```
