@@ -2,12 +2,15 @@
 This model is trained on stanford car dataset<br>
 https://ai.stanford.edu/~jkrause/cars/car_dataset.html<br>
 # Environment Setup<br>
-please use the environment from **environment.yml**<br>
+please use the environment from
+<a href="https://github.com/polohot/grabsubmission/blob/master/environment.yml">environment.yml</a>
 # Pretrained Model Setup<br>
 please download the pretrained model in this link <br>
 https://drive.google.com/open?id=1jTnColYHZhnuckgop06OAzk8D-mROrG7 <br>
 paste the file in this directory after clone <br> 
-**grabchallange/data/**
+```
+grabchallange/data/
+```
 # Main notebook<br>
 <a href="https://github.com/polohot/grabsubmission/blob/master/grab_challange/GRAB%20Image%20classification%20challange.ipynb">grab_challange/GRAB Image classification challange.ipynb</a><br>
 # Make prediction (go to section 3.3 of the notebook)
@@ -39,7 +42,12 @@ learn = load_learner('data/','export152_all_486.pkl')
 file_lists = [f for f in listdir('hold_out_images') if isfile(join('hold_out_images', f))]
 file_lists.sort()
 ```
-6.Run this code to initiate prediction
+6. Run this code if you don't use or can't use gpu
+```
+# run this line if there is no gpu detected
+#defaults.device = torch.device('cpu')
+```
+7.Run this code to initiate prediction
 ```
 # run image prediction
 ls_prd = []
@@ -50,7 +58,7 @@ for pic_name in file_lists:
     ls_prd.append(str(pred))
     df_conf[str(pic_name)] = pd.Series(conf) 
 ```
-7.Show prediction<br>
+8.Show prediction<br>
 ```
 #Show category
 ls_prd
