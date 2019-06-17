@@ -10,9 +10,9 @@ paste the file in this directory after clone <br>
 grab_challange/GRAB Image classification challange.ipynb
 # Make prediction
 Last section of the notebook states on how to make prediction on the new images using the model above<br>
-1. copy pictures into hold_out_images folder<br>
+1.copy pictures into hold_out_images folder<br>
 <br>
-2. import libraries<br>
+2.import libraries<br>
 <br>
 ```
 import numpy as np
