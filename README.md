@@ -26,13 +26,6 @@ conda install -c pytorch -c fastai fastai
 ```
 conda install -c anaconda jupyter 
 ```
-# Pretrained Model Setup<br>
-please download the pretrained model in this link <br>
-https://drive.google.com/open?id=1bXHQwkWT5fLlCq0Uye8G-kF7RoKTlI4q <br>
-paste the file in this directory after clone <br> 
-```
-grabchallange/data/
-```
 # Make prediction of test set<br>
 (go to section 3.2 of the notebook)<br>
 1. Download trained model https://drive.google.com/open?id=1bXHQwkWT5fLlCq0Uye8G-kF7RoKTlI4q <br>
@@ -46,6 +39,6 @@ http://imagenet.stanford.edu/internal/car196/cars_annos.mat
 (go to section 3.3 of the notebook)<br>
 1. Download trained model https://drive.google.com/open?id=1bXHQwkWT5fLlCq0Uye8G-kF7RoKTlI4q <br>
 2. paste in directory **grabchallange/data/**<br>
-3. Copy pictures into **grabchallange/hold_out_images** folder<
+3. Copy pictures into **grabchallange/hold_out_images** folder
 4. Import library at the top of the notebook
-5. Go to section 3.2 of notebook, follow line by line
+5. Go to section 3.3 of notebook, follow line by line
