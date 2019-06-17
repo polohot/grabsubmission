@@ -6,7 +6,7 @@ please use the environment from
 <a href="https://github.com/polohot/grabsubmission/blob/master/environment.yml">environment.yml</a>
 # Pretrained Model Setup<br>
 please download the pretrained model in this link <br>
-https://drive.google.com/open?id=1jTnColYHZhnuckgop06OAzk8D-mROrG7 <br>
+https://drive.google.com/open?id=1bXHQwkWT5fLlCq0Uye8G-kF7RoKTlI4q <br>
 paste the file in this directory after clone <br> 
 ```
 grabchallange/data/
