@@ -89,6 +89,28 @@ def calc_accuracy(learn,df_in):
     correct = np.where(score['prd'] == score['act'],1,0).sum() / len(score)  
     return correct
 
+def calc_accuracy2(learn,df_in):
+    """
+    Function to calculate accuracy from dataframes
+    Somehow I tried, calculate picture one by one gives better precision
+    """
+    ls_prd=[]
+    ls_real=[]
+    df_conf=pd.DataFrame()
+    for i in range(0,len(df_in)):
+        img = open_image('data/'+df_in['name'][i])
+        pred_class,_,conf = learn.predict(img) 
+        ls_prd.append(str(pred_class))
+        ls_real.append(df_in['label'][i])
+        df_conf[str(i)] = pd.Series(conf)    
+        if (i+1)%500 == 0:
+            score = pd.DataFrame({'prd':ls_prd,'act':ls_real})
+            correct = np.where(score['prd'] == score['act'],1,0).sum() / len(score)    
+            print(i+1,correct)
+    score = pd.DataFrame({'prd':ls_prd,'act':ls_real})
+    correct = np.where(score['prd'] == score['act'],1,0).sum() / len(score)  
+    return correct, df_conf
+
 def load_df_tst():
     mat_anno = scipy.io.loadmat('data/cars_annos.mat')
     df_all = pd.DataFrame(np.hstack((mat_anno['annotations'])))
