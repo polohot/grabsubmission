@@ -89,6 +89,16 @@ def calc_accuracy(learn,df_in):
     correct = np.where(score['prd'] == score['act'],1,0).sum() / len(score)  
     return correct
 
+def load_df_tst():
+    mat_anno = scipy.io.loadmat('data/cars_annos.mat')
+    df_all = pd.DataFrame(np.hstack((mat_anno['annotations'])))
+    df_map = pd.DataFrame(np.hstack((mat_anno['class_names'])))
+    _,df_tst = make_tst_trn(df_all)
+    df_tst['label'] = make_label(df_tst,df_map)
+    df_tst = df_tst.reset_index(drop=True)
+    df_tst = df_tst[['name','label']]
+    return df_tst
+
 def create_cropped_data_and_save_in_folder(df_in):    
     from imageai.Detection import ObjectDetection
     from PIL import Image as PILImage
