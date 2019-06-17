@@ -1,3 +1,5 @@
+Competitor : Khunakorn Luyaphan<br>
+Email : gatekhunakorn@gmail.com
 # Grab Submission (Test accuracy 92.2%)
 This model is trained on stanford car dataset<br>
 https://ai.stanford.edu/~jkrause/cars/car_dataset.html<br>
