@@ -5,7 +5,7 @@ please use the environment from **environment.yml**<br>
 please download the pretrained model in this link <br>
 https://drive.google.com/open?id=1jTnColYHZhnuckgop06OAzk8D-mROrG7 <br>
 paste the file in this directory after clone <br> 
-grabchallange/data/*
+**grabchallange/data/**
 # Main notebook<br>
 grab_challange/GRAB Image classification challange.ipynb
 # Make prediction
@@ -13,7 +13,7 @@ Last section of the notebook states on how to make prediction on the new images 
 1. copy pictures into hold_out_images folder<br>
 <br>
 2. import libraries
-'''
+```
 import numpy as np
 import pandas as pd
 import scipy.io
@@ -25,4 +25,4 @@ import fastai as fastai
 from fastai.vision import *
 from fastai.metrics import error_rate
 pd.options.mode.chained_assignment = None
-'''
+```
