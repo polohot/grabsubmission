@@ -13,8 +13,10 @@ grabchallange/data/
 ```
 # Main notebook<br>
 <a href="https://github.com/polohot/grabsubmission/blob/master/grab_challange/GRAB%20Image%20classification%20challange.ipynb">grab_challange/GRAB Image classification challange.ipynb</a><br>
-# Make prediction of test set (go to section 3.2 of the notebook)
-# Make prediction of hold_out set (go to section 3.3 of the notebook)
+# Make prediction of test set<br>
+(go to section 3.2 of the notebook)<br>
+# Make prediction of hold_out set <br>
+(go to section 3.3 of the notebook)<br>
 Last section of the notebook states on how to make prediction on the new images using the model above<br><br>
 1.Copy pictures into hold_out_images folder<br>
 <br>
