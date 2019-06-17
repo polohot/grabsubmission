@@ -108,7 +108,8 @@ def calc_accuracy2(learn,df_in):
             correct = np.where(score['prd'] == score['act'],1,0).sum() / len(score)    
             print(i+1,correct)
     score = pd.DataFrame({'prd':ls_prd,'act':ls_real})
-    correct = np.where(score['prd'] == score['act'],1,0).sum() / len(score)  
+    correct = np.where(score['prd'] == score['act'],1,0).sum() / len(score) 
+    print(correct)
     return correct, df_conf
 
 def load_df_tst():
