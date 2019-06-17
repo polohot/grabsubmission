@@ -13,13 +13,17 @@ b) Activate environment
 ```
 conda activate grab_image
 ```
-c) Install FastAI Library
+c) Download and install pytorch<br>
+>go to pytorch website https://pytorch.org/<br>
+>choose stable and your cuda version<br>
+>copy the link and paste into anaconda terminal<br>
+d) Install FastAI Library
 ```
 conda install -c pytorch -c fastai fastai
 ```
 d) Install Jupyter
 ```
-conda install jupyter
+conda install -c anaconda jupyter 
 ```
 # Pretrained Model Setup<br>
 please download the pretrained model in this link <br>
