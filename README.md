@@ -1,6 +1,6 @@
 # grabsubmission (Test accuracy 92.2%)
 # Environment Setup<br>
-environment file from **environment.yml**<br>
+please use the environment from **environment.yml**<br>
 # Pretrained Model Setup<br>
 please download the pretrained model in this link <br>
 https://drive.google.com/open?id=1jTnColYHZhnuckgop06OAzk8D-mROrG7 <br>
