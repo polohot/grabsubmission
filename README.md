@@ -4,7 +4,7 @@ https://ai.stanford.edu/~jkrause/cars/car_dataset.html<br>
 # Main notebook<br>
 <a href="https://github.com/polohot/grabsubmission/blob/master/grab_challange/GRAB%20Image%20classification%20challange.ipynb">grab_challange/GRAB Image classification challange.ipynb</a><br>
 # Environment Setup (Tested on windows)
-Please follow the step one by one<br><br>
+**Please follow the step one by one**<br><br>
 a) Create new environment python = 3.6
 ```
 conda create -n grab_image python=3.6
