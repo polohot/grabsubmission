@@ -18,11 +18,17 @@ conda activate grab_image
 2. choose stable and your cuda version<br>
 3. copy the link and paste into anaconda terminal<br>
 
-d) Install FastAI Library
+**d) Install FastAI Library**
 ```
 conda install -c pytorch -c fastai fastai
 ```
-d) Install Jupyter
+**e) Install Jupyter**
+```
+conda install -c anaconda jupyter 
+```
+**f) Download test data**
+1. Download 
+2. Unzip to **grabsubmission/car_ims/***
 ```
 conda install -c anaconda jupyter 
 ```
