@@ -1,12 +1,19 @@
-# Grabsubmission (Test accuracy 92.2%)
+# Grab Submission (Test accuracy 92.2%)
 This model is trained on stanford car dataset<br>
 https://ai.stanford.edu/~jkrause/cars/car_dataset.html<br>
 # Environment Setup<br>
-please create new environment python = 3.6
+a) Create new environment python = 3.6
 ```
 conda create -n grab_image python=3.6
 ```
-
+b) Activate environment
+```
+conda activate grab_image
+```
+c) Install FastAI Library
+```
+conda install -c pytorch -c fastai fastai
+```
 # Pretrained Model Setup<br>
 please download the pretrained model in this link <br>
 https://drive.google.com/open?id=1bXHQwkWT5fLlCq0Uye8G-kF7RoKTlI4q <br>
