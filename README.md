@@ -51,11 +51,11 @@ for pic_name in file_lists:
     df_conf[str(pic_name)] = pd.Series(conf) 
 ```
 7.Show prediction<br>
-Show category
 ```
+#Show category
 ls_prd
 ```
-Show confident for each category
 ```
+#Show confident for each category
 df_conf[0]
 ```
