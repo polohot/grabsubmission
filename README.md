@@ -17,6 +17,7 @@ c) Download and install pytorch<br>
 >go to pytorch website https://pytorch.org/<br>
 >choose stable and your cuda version<br>
 >copy the link and paste into anaconda terminal<br>
+
 d) Install FastAI Library
 ```
 conda install -c pytorch -c fastai fastai
