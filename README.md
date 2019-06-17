@@ -3,6 +3,7 @@ Email : gatekhunakorn@gmail.com
 # Grab Submission (Test accuracy 92.2%)
 This model is trained on stanford car dataset<br>
 https://ai.stanford.edu/~jkrause/cars/car_dataset.html<br>
+The model it self is trained using NVIDIA K80 and NVIDIA TESLA P100 setted up on google cloud
 # Main notebook<br>
 <a href="https://github.com/polohot/grabsubmission/blob/master/grab_challange/GRAB%20Image%20classification%20challange.ipynb">grab_challange/GRAB Image classification challange.ipynb</a><br>
 # Environment Setup (Tested on windows)
