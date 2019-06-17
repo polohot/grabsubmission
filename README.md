@@ -27,7 +27,7 @@ conda install -c pytorch -c fastai fastai
 conda install -c anaconda jupyter 
 ```
 # Make prediction of test set<br>
-(go to section 3.2 of the notebook)<br>
+**Section 3.2 of the notebook**<br>
 1. Download trained model https://drive.google.com/open?id=1bXHQwkWT5fLlCq0Uye8G-kF7RoKTlI4q <br>
 2. paste in directory **grabchallange/data/**
 3. Download test data (car_ims) from <br>
@@ -36,7 +36,7 @@ http://imagenet.stanford.edu/internal/car196/cars_annos.mat
 5. Import library at the top of the notebook
 6. Go to section 3.2 of notebook, follow line by line
 # Make prediction of hold_out set <br>
-(go to section 3.3 of the notebook)<br>
+**Section 3.3 of the notebook**<br>
 1. Download trained model https://drive.google.com/open?id=1bXHQwkWT5fLlCq0Uye8G-kF7RoKTlI4q <br>
 2. paste in directory **grabchallange/data/**<br>
 3. Copy pictures into **grabchallange/hold_out_images** folder
