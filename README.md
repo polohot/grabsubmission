@@ -12,9 +12,10 @@ grab_challange/GRAB Image classification challange.ipynb
 Last section of the notebook states on how to make prediction on the new images using the model above<br>
 1. copy pictures into hold_out_images folder<br>
 <br>
-2. import libraries
-```
-import numpy as np
+2. import libraries<br>
+> import numpy as np
+
+
 import pandas as pd
 import scipy.io
 import my_function as mf
@@ -25,4 +26,4 @@ import fastai as fastai
 from fastai.vision import *
 from fastai.metrics import error_rate
 pd.options.mode.chained_assignment = None
-```
+
