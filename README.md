@@ -2,8 +2,11 @@
 This model is trained on stanford car dataset<br>
 https://ai.stanford.edu/~jkrause/cars/car_dataset.html<br>
 # Environment Setup<br>
-please use the environment from
-<a href="https://github.com/polohot/grabsubmission/blob/master/environment.yml">environment.yml</a>
+please create new environment python = 3.6
+```
+conda create -n grab_image python=3.6
+```
+
 # Pretrained Model Setup<br>
 please download the pretrained model in this link <br>
 https://drive.google.com/open?id=1bXHQwkWT5fLlCq0Uye8G-kF7RoKTlI4q <br>
