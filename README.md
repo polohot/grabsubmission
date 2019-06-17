@@ -57,5 +57,5 @@ ls_prd
 ```
 ```
 #Show confident for each category
-df_conf[0]
+df_conf
 ```
