@@ -13,7 +13,8 @@ Last section of the notebook states on how to make prediction on the new images 
 1. copy pictures into hold_out_images folder<br>
 <br>
 2. import libraries<br>
-> import numpy as np
+<br>
+```import numpy as np```
 
 
 import pandas as pd
