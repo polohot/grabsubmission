@@ -1,11 +1,13 @@
 Competitor : Khunakorn Luyaphan<br>
 Email : gatekhunakorn@gmail.com
+
 # Grab Submission (Test accuracy 92.2%)
 This model is trained on stanford car dataset<br>
 https://ai.stanford.edu/~jkrause/cars/car_dataset.html<br>
 The model it self is trained using NVIDIA K80 and NVIDIA TESLA P100 setted up on google cloud
 # Main notebook<br>
 <a href="https://github.com/polohot/grabsubmission/blob/master/grab_challange/GRAB%20Image%20classification%20challange.ipynb">grab_challange/GRAB Image classification challange.ipynb</a><br>
+
 # Environment Setup (Tested on windows)
 **Please follow step by step**<br><br>
 **a) Create new environment python = 3.6**
@@ -45,3 +47,17 @@ http://imagenet.stanford.edu/internal/car196/cars_annos.mat
 3. Copy pictures into **grabchallange/hold_out_images/*** folder
 4. Import library at the top of the notebook
 5. Go to section 3.3 of notebook, follow line by line
+
+# Summary Approach
+### 1. Use OpenCV Library to crop the car image
+<img src="http://drive.google.com/uc?export=view&id=1WzC6ZWrMrm3K3ihDUCNG6Akcrv1pZJsK"></img>
+### 2. Image mask, after crop mask out the other car in the image
+<img src="http://drive.google.com/uc?export=view&id=14-zUBNQonvUmIFu-QBX_S4FOus5jxLIW"></img>
+### 3. Add the cropped and masked image to the original data<br>
+<img src="http://drive.google.com/uc?export=view&id=1SWNo2JgvjxRsWrEWITi5YZxeDNwrrmhp"></img>
+### 4. Image augmentation (Stretch/Zoom/Rotate)<br>
+<img src="http://drive.google.com/uc?export=view&id=1B_W2211pwZq1vaQS_coj4Q_PUWPDwLIF"></img>
+### 5. Progressive resizing<br>
+<img src="http://drive.google.com/uc?export=view&id=1m4vIiS0Hp5j3-K2PQ56HlMm_oou6sr4c"></img>
+
+
