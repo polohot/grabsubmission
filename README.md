@@ -50,14 +50,14 @@ http://imagenet.stanford.edu/internal/car196/cars_annos.mat
 
 # Summary Approach
 ### 1. Use OpenCV Library to crop the car image
-<img src="http://drive.google.com/uc?export=view&id=1WzC6ZWrMrm3K3ihDUCNG6Akcrv1pZJsK"></img>
+<img src="https://raw.githubusercontent.com/polohot/grabsubmission/master/grab_challange/data/Capture002.PNG"></img>
 ### 2. Image mask, after crop mask out the other car in the image
-<img src="http://drive.google.com/uc?export=view&id=14-zUBNQonvUmIFu-QBX_S4FOus5jxLIW"></img>
+<img src="https://raw.githubusercontent.com/polohot/grabsubmission/master/grab_challange/data/Capture003.jpg"></img>
 ### 3. Add the cropped and masked image to the original data<br>
 <img src="http://drive.google.com/uc?export=view&id=1SWNo2JgvjxRsWrEWITi5YZxeDNwrrmhp"></img>
 ### 4. Image augmentation (Stretch/Zoom/Rotate)<br>
-<img src="http://drive.google.com/uc?export=view&id=1B_W2211pwZq1vaQS_coj4Q_PUWPDwLIF"></img>
+<img src="https://raw.githubusercontent.com/polohot/grabsubmission/master/grab_challange/data/Captire004.PNG"></img>
 ### 5. Progressive resizing<br>
-<img src="http://drive.google.com/uc?export=view&id=1m4vIiS0Hp5j3-K2PQ56HlMm_oou6sr4c"></img>
+<img src="https://raw.githubusercontent.com/polohot/grabsubmission/master/grab_challange/data/Capture005.PNG"></img>
 
 
